@@ -1,0 +1,25 @@
+{
+  "name": "simon-game",
+  "version": "1.0.0",
+  "description": "FCC Simon Game",
+  "main": "index.js",
+  "repository": "git@github.com:MatejBransky/simon-game.git",
+  "author": "Matej Bransky <bransky@logio.cz>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@xstate/react": "^0.8.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "xstate": "^4.7.0-rc6"
+  }
+}
